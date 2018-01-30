@@ -1,0 +1,36 @@
+{
+  "name": "superstamp",
+  "version": "1.0.0",
+  "description": "CLI tool to append EXIF timestamp of created-date to media file names.",
+  "main": "index.js",
+  "bin": "superstamp",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "fast-exif": "^1.0.1",
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/F1LT3R/superstamp.git"
+  },
+  "keywords": [
+    "timestamp",
+    "exif",
+    "file",
+    "name",
+    "created",
+    "date",
+    "birth",
+    "time"
+  ],
+  "author": "F1LT3R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F1LT3R/superstamp/issues"
+  },
+  "homepage": "https://github.com/F1LT3R/superstamp#readme"
+}
