@@ -1,7 +1,7 @@
 {
   "name": "superstamp",
-  "version": "1.0.0",
-  "description": "CLI tool to append EXIF timestamp of created-date to media file names.",
+  "version": "1.0.1",
+  "description": "CLI tool to append EXIF timestamp or created-date to media file names.",
   "main": "index.js",
   "bin": {
     "superstamp": "index.js"
