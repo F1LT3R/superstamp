@@ -10,7 +10,7 @@ const stats = []
 const renames = []
 
 let count = 0
-const maxFiles = 10 // Infinity
+const maxFiles = Infinity
 
 const cwd = process.cwd()
 const inputDir = process.argv[2]
