@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "CLI tool to append EXIF timestamp of created-date to media file names.",
   "main": "index.js",
-  "bin": "superstamp",
+  "bin": {
+    "superstamp": "index.js"
+  },
   "dependencies": {
     "bluebird": "^3.5.1",
     "fast-exif": "^1.0.1",
